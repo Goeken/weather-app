@@ -83,7 +83,7 @@ class App extends React.Component{
   };
 
 async componentDidMount() {
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=Reno,us&appid=${API_KEY}&units=imperial`);
+    const api_call = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Reno,us&appid=${API_KEY}&units=imperial`);
     const data = await api_call.json();
 
 
@@ -113,7 +113,7 @@ async componentDidMount() {
 getWeather = async (p, e) => {
     e.preventDefault();
     const city = p;
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city},US&appid=${API_KEY}&units=imperial`);
+    const api_call = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city},US&appid=${API_KEY}&units=imperial`);
     const data = await api_call.json();
     this.setState({
      city: data.city.name,
