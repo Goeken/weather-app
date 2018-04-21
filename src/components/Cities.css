@@ -1,0 +1,49 @@
+.customButton{
+	color: white !important;
+	background-color: #E37F65 !important;
+	padding-left: 40px;
+	padding-right: 40px;
+width: 150px;
+
+	min-width: 90px;
+}
+
+.customButton2{
+	color: white !important;
+	background-color: #E88667 !important;
+		width: 150px;
+	min-width: 90px;
+}
+
+.customButton3{
+	color: white !important;
+	background-color: #EA8C6A !important;
+		width: 150px;
+	min-width: 90px;
+}
+.customButton6{
+	color: white !important;
+	background-color: #EC926C !important;
+		width: 150px;
+	min-width: 90px;
+}
+
+
+.customButton4{
+	color: white !important;
+	background-color: #ED946B !important;
+		width: 150px;	
+	min-width: 90px;
+}
+
+.customButton5{
+	color: white !important;
+	background-color: #EF9B6F !important;
+width: 150px;
+	min-width: 90px;
+}
+
+.MuiAppBar-colorPrimary-7{
+	background-color: #EB8E69 !important;
+}
+
